@@ -1,0 +1,48 @@
+
+.firstLook {
+    display: flex;
+
+   justify-content: center;
+   align-items: center;
+}
+
+
+.selfImage {
+
+
+    width:60vh;
+    height:85vh;
+    padding-left: 7vh;
+    padding-right: 3vh;
+}
+
+
+.selfWelcome{
+
+   flex:1;
+   font-size: 10vh;
+   align-items: center;
+   justify-content: space-around;
+   text-align: center;
+}
+
+.selfFactHeader{
+
+    margin-left: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+
+    font-size: 40px;
+    text-emphasis: bold;;
+
+}
+
+.selfFact{
+    
+    line-height: 2;
+    margin-left: 20vh;
+    margin-bottom: 20vh;
+    font-size: 20px;
+}
+
+

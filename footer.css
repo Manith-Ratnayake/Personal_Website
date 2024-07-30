@@ -1,0 +1,15 @@
+footer {
+	
+    background-color: rgb(8, 12, 35);
+	color: white;
+	text-decoration: none;
+
+	display:flex;
+	align-items: center;
+	justify-content: center;
+    height: 75px; 
+	bottom: 0;
+    
+    font-family: Verdana;
+}
+

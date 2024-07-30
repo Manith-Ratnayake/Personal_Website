@@ -1,0 +1,55 @@
+h1  {
+
+    color: rgb(255, 255, 255);
+    margin-left: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+.skillSet{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10vh;
+
+    padding-left: 5vh;
+    margin-bottom: 10vh;
+}
+
+
+.skill {
+
+    background: rgb(29, 29, 67);
+    text-align: center;
+
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.skill img {
+
+    height: 25vh;
+    width: 25vh;
+}
+
+
+.skillName {
+
+    font-size: 20px;
+    color: white;
+}
+
+.skillType {
+
+    font-size: 10px;
+    color: white;
+}
+
+
+/*  Effects */
+.skill:hover{
+
+    background: rgb(2, 2, 65);
+    transform: scale(1.01);
+}

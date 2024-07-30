@@ -1,0 +1,31 @@
+.contactForm {
+
+	background: rgb(16, 16, 37);
+
+	display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+	margin: 20vh 70vh 20vh 70vh;
+	padding: 10vh 0vh 10vh 0vh;
+
+}
+
+.contactHeader {
+
+	align-items: center;
+	margin-bottom: 10vh;
+}
+
+.contactInfo {
+
+	line-height: 3;
+	text-decoration: none;
+}
+
+
+
+/* Effects */
+.contactInfo:hover {
+	text-decoration: underline;
+}

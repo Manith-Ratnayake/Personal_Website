@@ -1,0 +1,32 @@
+h1  {
+    
+    color: rgb(255, 255, 255);
+    padding-left: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vh;
+}
+
+
+
+
+.certificatesGallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+
+.certificatesGallery img {
+
+	width: 650px;
+	height: 450px;
+	padding: 90px 40px 110px 40px;
+}
+
+
+
+/* Effects */
+image:hover {
+    transform: scale(1.05);  
+}
